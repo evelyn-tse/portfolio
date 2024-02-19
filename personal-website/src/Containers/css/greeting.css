@@ -1,0 +1,51 @@
+
+
+.greeting-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Google Sans Bold";
+    background-image: url("../images/greeting-background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.greeting-text-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    width: 55%;
+}
+
+#greeting {
+    margin-top: 80px;
+    font-size: 25px;
+    line-height: 1.1;
+    font-family: "Google Sans Bold";
+
+}
+
+#greeting-title {
+    margin-top: 5px;
+    font-size: 100px;
+    margin-bottom: 0px;
+    line-height: 1.1;
+    font-family: "Google Sans Bold";
+}
+
+#greeting-subtitle {
+    font-size: 30px;
+    line-height: 1.1;
+    font-family: "Google Sans Regular";
+}
+
+#greeting-description {
+    font-size: 20px;
+    line-height: 1.1;
+    font-family: "Google Sans Medium";
+}
